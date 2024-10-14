@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #9e91c2;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 640px; /* Defina um tamanho fixo para o contêiner */
+  height: 480px; /* Ajuste o tamanho conforme o vídeo */
+}
+
+#video {
+  width: 100%; /* O vídeo vai preencher todo o contêiner */
+  height: 100%;
+  display: block;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* O canvas também preencherá todo o contêiner */
+  height: 100%;
+}
+
+#counter {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
